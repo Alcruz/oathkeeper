@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './styles/style.scss';
+
+import {SignUpForm} from './views/sign-up-form';
+
 ReactDOM.render(
-    <div>
-        <h1>Hello World</h1>
-    </div>,
+    <SignUpForm />,
   document.querySelector("#app-container")
 );
