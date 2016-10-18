@@ -6,6 +6,12 @@ import './styles/style.scss';
 import {SignUpForm} from './views/sign-up-form';
 
 ReactDOM.render(
-    <SignUpForm />,
-  document.querySelector("#app-container")
+    <div style={{marginTop: "30px"}} className="container">
+        <div className="row">
+            <div className="col-md-6 col-md-offset-3">
+                <SignUpForm />
+            </div>
+        </div>
+    </div>,
+    document.querySelector("#app-container")
 );

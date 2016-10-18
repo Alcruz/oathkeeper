@@ -11,26 +11,25 @@ export class SignUpForm extends React.Component {
                         </div>
                         <div className="form-group">
                             <label className="control-label" htmlFor="signupName">Your name</label>
-                            <input id="signupName" type="text" maxlength="50" className="form-control"/>
+                            <input id="signupName" type="text"  className="form-control"/>
                         </div>
                         <div className="form-group">
                             <label className="control-label" htmlFor="signupEmail">Email</label>
-                            <input id="signupEmail" type="email" maxlength="50" className="form-control"/>
+                            <input id="signupEmail" type="email" className="form-control"/>
                         </div>
                         <div className="form-group">
                             <label className="control-label" htmlFor="signupEmailagain">Email again</label>
-                            <input id="signupEmailConfirmation" type="email" maxlength="50" className="form-control"/>
+                            <input id="signupEmailConfirmation" type="email"  className="form-control"/>
                         </div>
                         <div className="form-group">
                             <label className="control-label" htmlFor="signupPassword">Password</label>
-                            <input id="signupPassword" type="password" maxlength="25" className="form-control"
-                                   placeholder="at least 6 characters" length="40"/>
+                            <input id="signupPassword" type="password" className="form-control"
+                                   placeholder="at least 6 characters" />
                         </div>
                         <div className="form-group">
                             <label className="control-label" htmlFor="signupPasswordagain">Password
                                 again</label>
-                            <input id="signupPasswordConfirmation" type="password" maxlength="25"
-                                   className="form-control"/>
+                            <input id="signupPasswordConfirmation" type="password" className="form-control"/>
                         </div>
                         <div className="form-group">
                             <button id="signupSubmit" type="submit" className="btn btn-info btn-block">Create
