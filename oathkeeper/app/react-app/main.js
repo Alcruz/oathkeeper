@@ -1,8 +1,9 @@
-import {React, ReactDOM} from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-  document.querySelector("#app-container"),
     <div>
         <h1>Hello World</h1>
-    </div>
+    </div>,
+  document.querySelector("#app-container")
 );
