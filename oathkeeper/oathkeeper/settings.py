@@ -50,7 +50,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'intellisys.urls'
+ROOT_URLCONF = 'oathkeeper.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'intellisys.wsgi.application'
+WSGI_APPLICATION = 'oathkeeper.wsgi.application'
 
 
 # Database
